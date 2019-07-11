@@ -23,6 +23,8 @@ Rastreamento com Fluentlog,Experimente,Técnicas,TRUE,FluentLog é uma api fluen
 Open Source,Experimente,Técnicas,TRUE,some description here
 Documentação aberta e colaborativa,Experimente,Técnicas,TRUE,some description here
 DDD,Avalie,Técnicas,TRUE,some description here
+EventSourcing,Avalie,Técnicas,TRUE,some description here
+Lean Inception,Avalie,Técnicas,TRUE,some description here
 Blockchain,Avalie,Técnicas,TRUE,some description here
 NoSQL,Avalie,Técnicas,TRUE,some description here
 Liberação manual,Evite,Técnicas,TRUE,some description here
@@ -38,12 +40,14 @@ Sonar Lint,Adote,Ferramentas,TRUE,some description here
 Tortoise Git,Adote,Ferramentas,TRUE,some description here
 Container,Experimente,Ferramentas,TRUE,some description here
 Elasticsearch,Experimente,Ferramentas,TRUE,some description here
+Mongo,Experimente,Ferramentas,TRUE,some description here
 Artefatos de Builder,Experimente,Ferramentas,TRUE,some description here
 BEF One Layer,Experimente,Ferramentas,TRUE,some description here
 WES Stateless,Experimente,Ferramentas,TRUE,some description here
 Cake,Experimente,Ferramentas,TRUE,some description here
 Selenium,Experimente,Ferramentas,TRUE,some description here
 Analytics,Experimente,Ferramentas,TRUE,some description here
+Expressões Lambdas do BEF,Experimente,Ferramentas,TRUE,some description here
 PostgreSQL,Avalie,Ferramentas,TRUE,some description here
 Message Broker,Avalie,Ferramentas,TRUE,some description here
 Machine Learning,Avalie,Ferramentas,TRUE,some description here
@@ -55,6 +59,7 @@ Ferramentas de Monitoramento,Avalie,Ferramentas,TRUE,some description here
 RavenDB,Avalie,Ferramentas,TRUE,some description here
 API Manager / API Gateway,Avalie,Ferramentas,TRUE,some description here
 Dapper / ORM,Avalie,Ferramentas,TRUE,some description here
+Entity Framework Core,Avalie,Ferramentas,TRUE,some description here
 Workflow,Avalie,Ferramentas,TRUE,some description here
 Newrelic,Avalie,Ferramentas,TRUE,some description here
 Datalog,Avalie,Ferramentas,TRUE,some description here
@@ -75,6 +80,7 @@ User Interface (Script UI),Adote,Linguagens & Frameworks,TRUE,some description h
 JQuery,Adote,Linguagens & Frameworks,TRUE,some description here
 NUnit,Adote,Linguagens & Frameworks,TRUE,some description here
 ASP.NET Web API 2,Adote,Linguagens & Frameworks,TRUE,some description here
+ASP.NET Core,Adote,Linguagens & Frameworks,TRUE,some description here
 Xamarim,Experimente,Linguagens & Frameworks,TRUE,some description here
 .NET Core,Avalie,Linguagens & Frameworks,TRUE,some description here
 Node.js,Avalie,Linguagens & Frameworks,TRUE,some description here
