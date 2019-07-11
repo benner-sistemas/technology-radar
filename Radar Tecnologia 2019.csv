@@ -1,6 +1,7 @@
 name,ring,quadrant,isNew,description
 Continuous Delivery,Adote,Técnicas,TRUE,some description here
 Testes Automatizados e Unitários,Adote,Técnicas,TRUE,some description here
+Teste de Integração,Adote,Técnicas,TRUE,some description here
 Teste de carga,Adote,Técnicas,TRUE,some description here
 Branches com Merge Request,Adote,Técnicas,TRUE,some description here
 Code Review,Adote,Técnicas,TRUE,some description here
@@ -10,18 +11,31 @@ Hackatons,Adote,Técnicas,TRUE,some description here
 Pair programming,Adote,Técnicas,TRUE,some description here
 Melhoria contínua de performance,Adote,Técnicas,TRUE,some description here
 Redução de complexidade,Adote,Técnicas,TRUE,some description here
+Injeção de dependência,Adote,Técnicas,TRUE,some description here
+Kanban,Adote,Técnicas,TRUE,some description here
+MVC,Adote,Técnicas,TRUE,some description here
+Design Patterns,Adote,Técnicas,TRUE,some description here
 Devops,Experimente,Técnicas,TRUE,some description here
 Trabalho Remoto,Experimente,Técnicas,TRUE,some description here
 Squads,Experimente,Técnicas,TRUE,some description here
 Design Sprint,Experimente,Técnicas,TRUE,some description here
 Rastreamento com Fluentlog,Experimente,Técnicas,TRUE,FluentLog é uma api fluente para gerar um trace do algoritmo executado
+Open Source,Experimente,Técnicas,TRUE,some description here
+Documentação aberta e colaborativa,Experimente,Técnicas,TRUE,some description here
 DDD,Avalie,Técnicas,TRUE,some description here
+Blockchain,Avalie,Técnicas,TRUE,some description here
+NoSQL,Avalie,Técnicas,TRUE,some description here
 Liberação manual,Evite,Técnicas,TRUE,some description here
 Cascagil / Waterfall,Evite,Técnicas,TRUE,some description here
 BIT,Adote,Ferramentas,TRUE,some description here
-Visual Studio,Adote,Ferramentas,TRUE,some description here
+Visual Studio 2019+,Adote,Ferramentas,TRUE,some description here
+Visual Studio Code,Adote,Ferramentas,TRUE,some description here
 Rider,Adote,Ferramentas,TRUE,some description here
 Roteamento de mensagens no BTL,Adote,Ferramentas,TRUE,some description here
+NSubstitute,Adote,Ferramentas,TRUE,some description here
+Sonar Qube,Adote,Ferramentas,TRUE,some description here
+Sonar Lint,Adote,Ferramentas,TRUE,some description here
+Tortoise Git,Adote,Ferramentas,TRUE,some description here
 Container,Experimente,Ferramentas,TRUE,some description here
 Elasticsearch,Experimente,Ferramentas,TRUE,some description here
 Artefatos de Builder,Experimente,Ferramentas,TRUE,some description here
@@ -42,12 +56,17 @@ RavenDB,Avalie,Ferramentas,TRUE,some description here
 API Manager / API Gateway,Avalie,Ferramentas,TRUE,some description here
 Dapper / ORM,Avalie,Ferramentas,TRUE,some description here
 Workflow,Avalie,Ferramentas,TRUE,some description here
+Newrelic,Avalie,Ferramentas,TRUE,some description here
+Datalog,Avalie,Ferramentas,TRUE,some description here
+Nexus,Avalie,Ferramentas,TRUE,some description here
+Git Extensions,Avalie,Ferramentas,TRUE,some description here
+Portainer,Avalie,Ferramentas,TRUE,some description here
 DS Version,Evite,Ferramentas,TRUE,some description here
 E9,Evite,Ferramentas,TRUE,some description here
 Test Complete,Evite,Ferramentas,TRUE,some description here
 Benner Report (Quick Report),Evite,Ferramentas,TRUE,some description here
 Vue.js,Adote,Linguagens & Frameworks,TRUE,some description here
-C#,Adote,Linguagens & Frameworks,TRUE,some description here
+C# 7.0+,Adote,Linguagens & Frameworks,TRUE,some description here
 Jest,Adote,Linguagens & Frameworks,TRUE,some description here
 REST,Adote,Linguagens & Frameworks,TRUE,some description here
 Swagger,Adote,Linguagens & Frameworks,TRUE,some description here
@@ -55,16 +74,23 @@ Webpack,Adote,Linguagens & Frameworks,TRUE,some description here
 User Interface (Script UI),Adote,Linguagens & Frameworks,TRUE,some description here
 JQuery,Adote,Linguagens & Frameworks,TRUE,some description here
 NUnit,Adote,Linguagens & Frameworks,TRUE,some description here
+ASP.NET Web API 2,Adote,Linguagens & Frameworks,TRUE,some description here
 Xamarim,Experimente,Linguagens & Frameworks,TRUE,some description here
 .NET Core,Avalie,Linguagens & Frameworks,TRUE,some description here
 Node.js,Avalie,Linguagens & Frameworks,TRUE,some description here
 Python,Avalie,Linguagens & Frameworks,TRUE,some description here
+DevExpress,Avalie,Linguagens & Frameworks,TRUE,some description here
+Blazor,Avalie,Linguagens & Frameworks,TRUE,some description here
+GraphQL,Avalie,Linguagens & Frameworks,TRUE,some description here
 Regra de negócio Delphi,Evite,Linguagens & Frameworks,TRUE,some description here
+Javascript puro,Evite,Linguagens & Frameworks,TRUE,some description here
 Regra de negócio VBA,Evite,Linguagens & Frameworks,TRUE,some description here
 Silverlight,Evite,Linguagens & Frameworks,TRUE,some description here
 Stored Procedure,Evite,Linguagens & Frameworks,TRUE,some description here
 SQL Específico para banco de dados,Evite,Linguagens & Frameworks,TRUE,some description here
+Web Services com SOAP,Evite,Linguagens & Frameworks,TRUE,some description here
 Git,Adote,Plataformas,TRUE,some description here
+Gitab,Adote,Plataformas,TRUE,some description here
 Jenkins,Adote,Plataformas,TRUE,some description here
 WES,Adote,Plataformas,TRUE,some description here
 Docker,Experimente,Plataformas,TRUE,some description here
@@ -72,5 +98,9 @@ Kubernetes,Experimente,Plataformas,TRUE,some description here
 Nuvem Pública,Experimente,Plataformas,TRUE,some description here
 Identity Server,Avalie,Plataformas,TRUE,some description here
 MTM,Avalie,Plataformas,TRUE,some description here
+Flutter,Avalie,Plataformas,TRUE,some description here
+Mobile nativo,Avalie,Plataformas,TRUE,some description here
+SaaS,Avalie,plataformas,TRUE,some description here
 WES 2006,Evite,Plataformas,TRUE,some description here
 DSS,Evite,Plataformas,TRUE,some description here
+Runner,Evite,Plataformas,TRUE,some description here
