@@ -48,6 +48,9 @@ Cake,Experimente,Ferramentas,TRUE,"Cake é um sistema de automação de build mu
 Selenium,Experimente,Ferramentas,TRUE,"Selenium é uma ferramenta de automação de navegadores, permitindo não apenas, mas principalmente testes de interface automatizados."
 Analytics,Experimente,Ferramentas,TRUE,"Analytics refere-se à possibilidade de se utilizar dados, análises e raciocínio sistemático para seguir em um processo de tomada de decisão muito mais eficiente. Pode ser aplicado em diversos tipos de negócios."
 Expressões Lambdas do BEF,Experimente,Ferramentas,TRUE,"Com expressões lambda é possível executar consultas no banco de dados sem utilizar SQL. Entre os diversos benefícios, as expressões lambda melhoram a legibilidade do código, facilitam a escrita de testes unitários e os erros de sintaxe são detectados em tempo de compilação."
+Prometheus,Experimente,Ferramentas,TRUE,Monitoramento de aplicações em container
+Grafana,Experimente,Ferramentas,TRUE,Dashboards para monitoramento de aplicações em container
+Ansible,Experimente,Ferramentas,TRUE,"É uma ferramenta de automatização criada para gerenciar múltiplas máquinas de uma vez com suporte de uma linguagem própria baseada em YAML. Utiliza SSH para se conectar com os servidores e executar as tasks e funciona em cima de uma arquitetura sem a presença de agentes (agentlesss) e não necessita de uma infraestrutura de segurança customizada, fazendo com que o processo de automação seja mais eficiente e mais seguro."
 PostgreSQL,Avalie,Ferramentas,TRUE,O PostgreSQL é um sistema de gerenciamento de banco de dados objeto-relacional desenvolvido pelo Departamento de Ciência da Computação da Universidade da Califórnia em Berkeley. O POSTGRES foi pioneiro em vários conceitos que somente se tornaram disponíveis muito mais tarde em alguns sistemas de banco de dados comerciais. http://wiki.benner.com.br/wiki/index.php?title=BEF_-_Executando_consultas_com_Express%C3%B5es_Lambda_(LINQ).
 Message Broker,Avalie,Ferramentas,TRUE,"Message broker é um desenho de arquitetura para validação, transformação e encaminhamento de mensagens."
 Machine Learning,Avalie,Ferramentas,TRUE,"Machine learning é um método de análise de dados que automatiza a construção de modelos analíticos. É um ramo da inteligência artificial baseado na ideia de que sistemas podem aprender com dados, identificar padrões e tomar decisões com o mínimo de intervenção humana."
@@ -65,6 +68,10 @@ Newrelic,Avalie,Ferramentas,TRUE,"New Relic é uma solução de monitoramento. E
 Nexus,Avalie,Ferramentas,TRUE,"Gerenciador de binarios, artefatos de liberação em geral."
 Git Extensions,Avalie,Ferramentas,TRUE,Git Extensions é um kit de ferramentas destinado a tornar o trabalho com o Git no Windows mais intuitivo. A extensão do shell se integrará no Windows Explorer e apresentará um menu de contexto em arquivos e diretórios.
 Portainer,Avalie,Ferramentas,TRUE,Portainer é uma interface Web que roda localmente e é possível gerenciar imagens e containers Docker.
+Vagrant,Avalie,Ferramentas,TRUE,Esta ferramenta permitir criar e gerenciar de forma práticas máquinas virtuais. No caso da automação a virtualização poderá ser utilizada para dar escalabilidade para execução dos testes automatizados.
+Puppet,Avalie,Ferramentas,TRUE,"O uso desse provisionador, em conjunto o Vagrant, auxilia nas instalações e configurações dos pacotes necessários para máquinas virtuais. É um arquivo que pode ser versionado e facilmente modificado, que garante que as máquinas virtuais (se estiver usando o Vagrant em conjunto) estejam instaladas e configuradas da mesma maneira."
+Fluentd,Avalie,Ferramentas,TRUE,Ferramenta de extração e roteamento de logs
+Polly,Avalie,Ferramentas,TRUE,Permite aplicar políticas de resiliência
 DS Version,Evite,Ferramentas,TRUE,"Controlador de arquivos, utilizado para fontes."
 E9,Evite,Ferramentas,TRUE,Solução interna da Benner para compilar e liberar binários.
 Test Complete,Evite,Ferramentas,TRUE,Solução para automação de testes.
@@ -87,6 +94,10 @@ Python,Avalie,Linguagens & Frameworks,TRUE,"Python é uma linguagem dinâmica, i
 DevExpress,Avalie,Linguagens & Frameworks,TRUE,Suite de componentes.
 Blazor,Avalie,Linguagens & Frameworks,TRUE,"Blazor é uma estrutura de UI da Web baseada em C#, Razor e HTML que é executada no navegador via WebAssembly. O Blazor foi projetado para simplificar a tarefa de criar aplicativos rápidos de página única que são executados em qualquer navegador."
 GraphQL,Avalie,Linguagens & Frameworks,TRUE,"GraphQL é uma linguagem de consulta criada pelo Facebook em 2012 e lançada publicamente em 2015.[2] É considerada uma alternativa para arquiteturas REST, além de oferecer um serviço runtime para rodar comandos e consumir uma API."
+FileHelpers,Avalie,Linguagens & Frameworks,TRUE,Biblioteca que facilita manipulação de arquivos
+AutoMapper,Avalie,Linguagens & Frameworks,TRUE,Biblioteca para transformação de dados
+SignalR,Avalie,Linguagens & Frameworks,TRUE,SignalR é uma biblioteca de software para o Microsoft ASP.NET que permite que o código do servidor envie notificações assíncronas para aplicativos da Web do lado do cliente
+Helm e Helmfile,Avalie,Linguagens & Frameworks,TRUE,é uma ferramenta para gerenciamento de pacotes para o Kubernetes
 Regra de negócio Delphi,Evite,Linguagens & Frameworks,TRUE,"O Delphi é legado. Ele é restrito ao Win32, estamos indo na direção da multi-plataforma (Linux/Windows). Utilize o .NET."
 Javascript puro,Evite,Linguagens & Frameworks,TRUE,"JavaScript, frequentemente abreviado como JS, é uma linguagem de programação interpretada de alto nível, caracterizada também, como dinâmica, fracamente tipificada, prototype-based e multi-paradigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web."
 Regra de negócio VBA,Evite,Linguagens & Frameworks,TRUE,"O VBA é legado. Ele é restrito ao Win32, estamos indo na direção da multi-plataforma (Linux/Windows). Utilize o .NET."
@@ -106,6 +117,8 @@ MTM,Evite,Plataformas,TRUE,Plataforma de soluções mobile.
 Flutter,Avalie,Plataformas,TRUE,"Flutter é um framework para desenvolvimento de aplicativos para dispositivos móveis, Desktop ou Web utilizando a linguagem Dart como base de criação dos aplicativos."
 Mobile nativo,Avalie,Plataformas,TRUE,Soluções nativas para aplicativos mobile.
 SaaS,Avalie,Plataformas,TRUE,"SaaS (Software as a Service), em português ""software como um serviço"". São aplicações online que podem ser usadas no computador, tablet ou celular, de maneira simples e remota. É um programa que não é instalado e que é usado como um serviço através da conexão com a Internet. Como um serviço, significa que o cliente não compra a licença de um produto, mas sim o direito de usufruir do serviço oferecido."
+Drools,Avalie,Plataformas,TRUE,Motor de regras de código fonte aberto
+jBPM,Avalie,Plataformas,TRUE,BPM de código fonte aberto
 WES 2006,Evite,Plataformas,TRUE,Solução descontinuada da Benner para sistemas de gestão na Web. Evite! Utilize o WES.
 DSS,Evite,Plataformas,TRUE,Solução descontinuada de BI.
 Runner,Evite,Plataformas,TRUE,"O Runner é a ferramenta Benner responsável pela execução dos sistemas no desktop. Se utiliza dos metadados alimentados pelo Builder para gerar uma interface funcional do sistema, em tempo de execução. A interface é dividida em módulos. Uma Ribbon dá acesso as principais funções de cada módulo. Os dados são exibidos em pastas e subpastas, conforme a relação entre eles."
