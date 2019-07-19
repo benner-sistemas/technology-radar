@@ -18,11 +18,12 @@ Periodicamente iremos publicar uma nova edição do radar.
 
 ### Contribuindo
 
-1. Cadastre-se gratuitamente no github, [aqui](https://github.com/join)
-2. Acesse a página do projeto, [aqui](https://github.com/benner-sistemas/technology-radar)
-3. Clique no comando "Watch", no topo da página, para ser notificado das discussões do radar
-4. Clique no comando "Star", para favoritar esse projeto
-5. Acesse a aba "Issues", [aqui](https://github.com/benner-sistemas/technology-radar/issues), e pesquise pelo assunto do seu interesse
+1. Certifique-se de que você compreende o [propósito do nosso radar de tecnologia](https://dev.benner.com.br/radar/)
+2. Cadastre-se gratuitamente no github, [aqui](https://github.com/join)
+3. Acesse a página do projeto, [aqui](https://github.com/benner-sistemas/technology-radar)
+4. Clique no comando "Watch", no topo da página, para ser notificado das discussões do radar
+5. Clique no comando "Star", para favoritar esse projeto
+6. Acesse a aba "Issues", [aqui](https://github.com/benner-sistemas/technology-radar/issues), e pesquise pelo assunto do seu interesse
    1. Se o "Issue" relacionado ao assunto já existe, participe da discussão em andamento
    2. Senão, crie um novo "Issue" abordando o tema do seu interesse
 
