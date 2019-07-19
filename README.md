@@ -22,7 +22,7 @@ Neste anel estão os itens já consolidados, que sabemos que são efetivos ao qu
 
 ### Experimente
 
-São blips considerados prontos para o uso, mas que ainda não foram colocados tão à prova em nossa arquitetura quando os itens do anel "Adote", portanto a efetividade ainda não está atestada ou comprovada.
+São itens considerados prontos para o uso, mas que ainda não foram colocados tão à prova em nossa arquitetura quanto os itens do anel "Adote", portanto a efetividade ainda não está atestada ou comprovada. Cautela.
 
 ### Avalie
 
