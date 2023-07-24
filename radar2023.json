@@ -1,0 +1,912 @@
+﻿[
+  {
+    "name": "Continuous Delivery",
+    "ring": "Adote",
+    "quadrant": "Técnicas",
+    "isNew": "FALSE",
+    "description": "Continuous Delivery, ou “entrega contínua” em português, é uma abordagem de desenvolvimento de software na qual as equipes produzem o projeto em ciclos curtos, assegurando-se de que ele possa ser liberado confiantemente a qualquer instante, sempre que for solicitado."
+  },
+  {
+    "name": "Testes Automatizados e Unitários",
+    "ring": "Adote",
+    "quadrant": "Técnicas",
+    "isNew": "FALSE",
+    "description": "Teste unitário é uma aplicação de teste usada para validar unidades de sistema. Uma unidade é a menor parte testável de um programa de computador. Em programação procedural, uma unidade pode ser uma função individual ou um procedimento. Idealmente, cada teste de unidade é independente dos demais, o que possibilita ao programador testar cada módulo isoladamente."
+  },
+  {
+    "name": "Teste de Integração",
+    "ring": "Adote",
+    "quadrant": "Técnicas",
+    "isNew": "FALSE",
+    "description": "Teste de integração é a fase do teste de software em que módulos são combinados e testados em grupo. Ela sucede o teste de unidade, em que os módulos são testados individualmente, e antecede o teste de sistema, em que o sistema completo (integrado) é testado num ambiente que simula o ambiente de produção."
+  },
+  {
+    "name": "Teste de carga",
+    "ring": "Adote",
+    "quadrant": "Técnicas",
+    "isNew": "FALSE",
+    "description": "Teste de carga é usado para verificar o limite de dados processados pelo software até que ele não consiga mais processa-lo. Usado para validar e avaliar a aceitabilidade dos limites operacionais de um sistema de acordo com cargas de trabalho variáveis, ao passo que o sistema em teste permanece constante. Em geral, as medições são tomadas com base na taxa de transferência de dados da carga de trabalho e no tempo de resposta da transação alinhado."
+  },
+  {
+    "name": "Branches com Merge Request",
+    "ring": "Adote",
+    "quadrant": "Técnicas",
+    "isNew": "FALSE",
+    "description": "É uma estratégia de controle de versões do software onde não é possível fazer commits diretamente em uma versão, sendo necessário a criação de um merge request. Essa estratégia facilita a revisão de código das mudanças e dá maior segurança."
+  },
+  {
+    "name": "Code Review",
+    "ring": "Adote",
+    "quadrant": "Técnicas",
+    "isNew": "FALSE",
+    "description": "A revisão de código é uma prática em times de desenvolvedores de software onde o código produzido por uma pessoa é revisado por outra a fim de encontrar possíveis problemas ou melhorias, e também permite a aprendizagem de partes do sistema por quem está revisando."
+  },
+  {
+    "name": "UX",
+    "ring": "Adote",
+    "quadrant": "Técnicas",
+    "isNew": "FALSE",
+    "description": "UX ou User Experience (Experiência do Usuário) é a disciplina responsável por projetar experiências de uso encantadoras para fidelizar e conquistar clientes. Com esse objetivo, os designers de UX estudam o comportamento humano e o serviço oferecido para encontrar meios de melhorar a satisfação e a lealdade dos clientes. Isso é alcançado normalmente por meio de pilares como utilidade e facilidade de uso."
+  },
+  {
+    "name": "Integração Contínua",
+    "ring": "Adote",
+    "quadrant": "Técnicas",
+    "isNew": "FALSE",
+    "description": "Integração contínua (continuous integration) é uma prática de desenvolvimento de software que visa tornar a integração de código mais eficiente, através de builds e testes automatizados."
+  },
+  {
+    "name": "Hackatons",
+    "ring": "Adote",
+    "quadrant": "Técnicas",
+    "isNew": "FALSE",
+    "description": "Hackathons são eventos que reúnem desenvolvedores de software, designers e outros profissionais relacionados à área de programação, com o intuito de em um período curto de tempo criarem soluções inovadoras para algum problema específico."
+  },
+  {
+    "name": "Pair programming",
+    "ring": "Adote",
+    "quadrant": "Técnicas",
+    "isNew": "FALSE",
+    "description": "Prática de programação em dupla onde normalmente uma pessoa programa e a outra supervisa. O \"supervisor\" observa detalhes como boas práticas, code smells, regras de negócio, etc. É útil para juntar conhecimentos e desenvolver a melhor solução possível no momento."
+  },
+  {
+    "name": "Melhoria contínua de performance",
+    "ring": "Adote",
+    "quadrant": "Técnicas",
+    "isNew": "FALSE",
+    "description": "Melhoria contínua de performance."
+  },
+  {
+    "name": "Redução de complexidade",
+    "ring": "Adote",
+    "quadrant": "Técnicas",
+    "isNew": "FALSE",
+    "description": "Redução de complexidade."
+  },
+  {
+    "name": "Injeção de dependência",
+    "ring": "Adote",
+    "quadrant": "Técnicas",
+    "isNew": "FALSE",
+    "description": "Injeção de dependência é um padrão de desenvolvimento desoftware utilizado quando é necessário manter baixo o nível de acoplamento entre diferentes módulos de um sistema. Nesta solução as dependências entre os módulos não são definidas programaticamente, mas sim pela configuração de uma infraestrutura de software (container) que é responsável por \"injetar\" em cada componente suas dependências declaradas. A Injeção de dependência se relaciona com o padrão Inversão de controle mas não pode ser considerada um sinônimo deste."
+  },
+  {
+    "name": "Kanban",
+    "ring": "Adote",
+    "quadrant": "Técnicas",
+    "isNew": "FALSE",
+    "description": "Kanban é um sistema de gestão visual para controle de tarefas e fluxos de trabalho através da utilização de colunas e cartões."
+  },
+  {
+    "name": "MVC",
+    "ring": "Adote",
+    "quadrant": "Técnicas",
+    "isNew": "FALSE",
+    "description": "Arquitetura Modelo-Visão-Controlador (do inglês Model-View-Controller - MVC) é um padrão de arquitetura de software (não confundir com design pattern) que separa a representação da informação da interação do usuário com ela. Normalmente usado para o desenvolvimento de interfaces de usuário que divide uma aplicação em três partes interconectadas."
+  },
+  {
+    "name": "Design Patterns",
+    "ring": "Adote",
+    "quadrant": "Técnicas",
+    "isNew": "FALSE",
+    "description": "Design Patterns (Padrões de projeto em português) é uma solução geral que pode ser aplicada em determinados problemas que ocorrem durante a arquitetura de um software. É uma descrição ou um modelo de como resolver um determinado problema que pode acontecer em diferentes tipos de situação durante a criação de um sistema."
+  },
+  {
+    "name": "Devops",
+    "ring": "Adote",
+    "quadrant": "Técnicas",
+    "isNew": "TRUE",
+    "description": "DevOps é uma metodologia de desenvolvimento de software que utiliza a comunicação para integrar desenvolvedores de software e profissionais de infraestrutura de TI. Essa metodologia ficou conhecida como implementação contínua ou entrega contínua porque, ao padronizar ambientes de desenvolvimento, também auxilia as empresas no gerenciamento do lançamento de novas versões, além de controlar e de documentar a emissão de relatórios com diversidade de granularidade."
+  },
+  {
+    "name": "Trabalho Remoto",
+    "ring": "Adote",
+    "quadrant": "Técnicas",
+    "isNew": "TRUE",
+    "description": "Trabalho remoto."
+  },
+  {
+    "name": "Squads",
+    "ring": "Experimente",
+    "quadrant": "Técnicas",
+    "isNew": "FALSE",
+    "description": "Times organizados em Squads, inspirado na iniciativa do Spotify. Mais detalhes aqui: https://targetteal.com/pt/blog/modelo-spotify-squads/."
+  },
+  {
+    "name": "Design Sprint",
+    "ring": "Experimente",
+    "quadrant": "Técnicas",
+    "isNew": "FALSE",
+    "description": "O Design Sprint é uma metodologia participativa: diferente de encomendar um trabalho para uma consultoria, no Design Sprint as equipes da empresa e produto criam juntas. Não existe Design Sprint se os integrantes das equipes não têm disponibilidade para participar. O Design Sprint é uma maneira informada e ágil de conceituar e tangibilizar uma ideia, um produto, suas implementações e funcionalidades em um curto espaço de tempo. São cinco dias de intenso trabalho, juntando práticas de estratégia de negócios, inovação, ciência do comportamento, design thinking. A ideia é comprimir em uma semana os meses de discussões intermináveis e idas e vindas de um projeto."
+  },
+  {
+    "name": "Rastreamento com Fluentlog",
+    "ring": "Adote",
+    "quadrant": "Técnicas",
+    "isNew": "TRUE",
+    "description": "FluentLog é uma api fluente para gerar um trace do algoritmo executado."
+  },
+  {
+    "name": "Open Source",
+    "ring": "Experimente",
+    "quadrant": "Técnicas",
+    "isNew": "FALSE",
+    "description": "Software de código aberto é o software com o seu código fonte disponibilizado e licenciado com uma licença de código aberto no qual o direito autoral fornece o direito de estudar, modificar e distribuir o software de graça para qualquer um e para qualquer finalidade."
+  },
+  {
+    "name": "Documentação aberta e colaborativa",
+    "ring": "Experimente",
+    "quadrant": "Técnicas",
+    "isNew": "FALSE",
+    "description": "Documentação aberta e colaborativa."
+  },
+  {
+    "name": "DDD",
+    "ring": "Experimente",
+    "quadrant": "Técnicas",
+    "isNew": "TRUE",
+    "description": "Domain-Driven Design (DDD) é uma abordagem de desenvolvimento de software em que o design é orientado pelo domínio, ou seja, pela área de conhecimento à qual o software se aplica. Outra forma de dizer é: em DDD, o design da solução é orientado pelas regras de negócio."
+  },
+  {
+    "name": "EventSourcing",
+    "ring": "Avalie",
+    "quadrant": "Técnicas",
+    "isNew": "FALSE",
+    "description": "EventSourcing é persistir dados de uma forma que preserva toda informação. É sobre representar objetos como uma sequência de eventos que ocorreram através do tempo e os levaram a ficar como estão."
+  },
+  {
+    "name": "Lean Inception",
+    "ring": "Avalie",
+    "quadrant": "Técnicas",
+    "isNew": "FALSE",
+    "description": "Lean Inception é o nome dado ao workshop colaborativo para alinhar um grupo de pessoas sobre o produto mínimo viável a ser construído."
+  },
+  {
+    "name": "Blockchain",
+    "ring": "Avalie",
+    "quadrant": "Técnicas",
+    "isNew": "FALSE",
+    "description": "A tecnologia Blockchain nada mais é do que um livro razão público (ou livro contábil) que faz o registro de uma transação de moeda virtual, de forma que esse registro seja confiável e imutável. Ou seja, o blockchain registra informações como: a quantia transacionada da moeda, quem enviou, quem recebeu, quando essa transação foi feita e em qual lugar do livro ela está registrada. Isso mostra que a transparência é um dos principais predicados do blockchain."
+  },
+  {
+    "name": "NoSQL",
+    "ring": "Adote",
+    "quadrant": "Técnicas",
+    "isNew": "TRUE",
+    "description": "A sigla NoSQL é geralmente interpretada como “Not Only SQL” ou “Não SQL”. NoSQL é uma classe de bancos de dados que diverge do modelo de sistema de gerenciamento de bancos de dados relacionais, não fazendo uso primário de tabelas e não usando, no geral, declarações SQL para efetuar a manipulação de dados."
+  },
+  {
+    "name": "Liberação manual",
+    "ring": "Evite",
+    "quadrant": "Técnicas",
+    "isNew": "FALSE",
+    "description": "Processos não automatizados são suscetíveis à falhas. Evite!"
+  },
+  {
+    "name": "Integration Patterns",
+    "ring": "Avalie",
+    "quadrant": "Técnicas",
+    "isNew": "TRUE",
+    "description": "Padrões para o uso de integração de aplicativos corporativos e middleware orientado a mensagens na forma de uma linguagem de padrões."
+  },
+  {
+    "name": "Security Design Patterns",
+    "ring": "Avalie",
+    "quadrant": "Técnicas",
+    "isNew": "TRUE",
+    "description": "Padrões de segurança utilizados para implementações de aplicações."
+  },
+  {
+    "name": "Privacy by design",
+    "ring": "Adote",
+    "quadrant": "Técnicas",
+    "isNew": "TRUE",
+    "description": "Privacidade desde a concepção é uma abordagem à Engenharia de Sistemas, a qual leva em conta a privacidade durante todo o processo de construção do software. É um conceito sensível aos valores humanos e todas as suas derivações em todo o processo."
+  },
+  {
+    "name": "Cascagil / Waterfall",
+    "ring": "Evite",
+    "quadrant": "Técnicas",
+    "isNew": "FALSE",
+    "description": "É uma metodologia associada ao fato de que o processo deverá acontecer, em etapas, de forma sequencial. Há pouquíssimo paralelismo no desenvolvimento das etapas e, uma etapa, em geral, só começa quando a anterior estiver finalizada. Para além disto outra regra é a \"impossibilidade\" de se voltar atrás quando uma etapa está finalizada."
+  },
+  {
+    "name": "Enterprise Service Bus (ESB)",
+    "ring": "Avalie",
+    "quadrant": "Técnicas",
+    "isNew": "TRUE",
+    "description": "Um Enterprise Service Bus (ESB) é fundamentalmente uma arquitetura, com um conjunto de regras e princípios para a integração de inúmeras aplicações em uma infraestrutura semelhante a um barramento."
+  },
+  {
+    "name": "BIT",
+    "ring": "Adote",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "O BEF Integration Tests (BIT) é uma biblioteca que permite o desenvolvimento de testes de integração para regras de negócio escritas utilizando BEF."
+  },
+  {
+    "name": "Visual Studio 2022+",
+    "ring": "Adote",
+    "quadrant": "Ferramentas",
+    "isNew": "TRUE",
+    "description": "É uma ferramenta da Microsoft, conhecida como uma IDE (Integrated Development Environment). Ou seja, é um software editor de texto que possibilita aos usuários escreverem seus códigos em uma determinada linguagem para, então, serem traduzidos em comandos para os computadores. Com o Visual Studio é possível desenvolver aplicativos da Web ASP.NET, serviços Web XML, aplicativos desktop e aplicativos móveis."
+  },
+  {
+    "name": "Visual Studio Code",
+    "ring": "Adote",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "É uma ferramenta editora de texto leve e multiplataforma que está disponível para Windows, Mac OS e Linux, e atende a uma gama enorme de projetos, não apenas ASP.NET, como também Node.js. Adicionalmente, o editor possui suporte à sintaxe de diversas linguagens como Python, Ruby, C++."
+  },
+  {
+    "name": "Rider",
+    "ring": "Evite",
+    "quadrant": "Ferramentas",
+    "isNew": "TRUE",
+    "description": "Rider é uma IDE (Integrated Development Environment) multi plataforma para plataforma .NET, desenvolvido pela empresa JetBrains."
+  },
+  {
+    "name": "Roteamento de mensagens no BTL",
+    "ring": "Adote",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "Segmentar os assuntos do BTL em filas distintas, através de Broker de mensageria, permitindo configurar recursos computacionais para consumir tarefas de acordo com cada assunto."
+  },
+  {
+    "name": "Priorização de mensagens no BTL",
+    "ring": "Adote",
+    "quadrant": "Ferramentas",
+    "isNew": "TRUE",
+    "description": "Definir a prioridade de consumo/execução das mensagens via código fonte"
+  },
+  {
+    "name": "NSubstitute",
+    "ring": "Adote",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "NSubstitute is a mocking framework available for .Net."
+  },
+  {
+    "name": "Sonar Qube",
+    "ring": "Adote",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "Sonarqube é uma plataforma open-source desenvolvida pela empresa SonarSource para inspeção contínua de qualidade de código. Ela realiza análises de código para detectar bugs, code smells e vulnerabilidades de segurança em mais de 20 linguagens de programação. SonarQube oferece relatórios sobre código duplicado, padrões de código, testes unitários, cobertura de código, complexidade de código, comentários, bugs e vulnerabilidades. Também oferece gráficos de evolução dentre outras ferramentas."
+  },
+  {
+    "name": "Sonar Lint",
+    "ring": "Adote",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "O SonarLint é uma ferramenta de lint plugável a algumas IDE’s como Eclipse, IntelliJ, VSCode entre outros. A ferramenta lint vai verificar o código do projeto e procurar pequenos erros. A ferramenta SonarLint e utilizada para apontar erros no código durante o desenvolvimento."
+  },
+  {
+    "name": "Tortoise Git",
+    "ring": "Adote",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "TortoiseGit é uma interface para controle de repositórios git. A principal interação com o TortoiseGit se dá pelos menus de contexto do explorador de arquivos do Windows."
+  },
+  {
+    "name": "Container",
+    "ring": "Adote",
+    "quadrant": "Ferramentas",
+    "isNew": "TRUE",
+    "description": "Container é uma tecnologia que permite a criação de múltiplas instâncias isoladas de um determinado sistema operacional dentro de um único hospedeiro, em outras palavras é uma maneira de virtualizar aplicações."
+  },
+  {
+    "name": "Elasticsearch",
+    "ring": "Adote",
+    "quadrant": "Ferramentas",
+    "isNew": "TRUE",
+    "description": "O Elasticsearch é uma ferramenta para realização de buscas e análise de dados construída para trabalhar com grandes volumes de dados, permitindo indexar documentos e realizar buscas nesses documentos em (quase) tempo real."
+  },
+  {
+    "name": "Mongo",
+    "ring": "Adote",
+    "quadrant": "Ferramentas",
+    "isNew": "TRUE",
+    "description": "MongoDB é um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma, escrito na linguagem C++. Classificado como um programa de banco de dados NoSQL, o MongoDB usa documentos semelhantes a JSON com esquemas."
+  },
+  {
+    "name": "Artefatos de Builder",
+    "ring": "Adote",
+    "quadrant": "Ferramentas",
+    "isNew": "TRUE",
+    "description": "O Builder permite exportar para xml a definição de estrutura de dados. Isto possibilita tratar as estruturas da base de dados como código fonte, efetuando PullRequests, Revisão de Código, Merges, etc."
+  },
+  {
+    "name": "BEF One Layer",
+    "ring": "Experimente",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "Simplificação da arquitetura dos projetos (e binários) do BEF. Permitindo manter um assembly comum entre as camadas Business e Presentation."
+  },
+  {
+    "name": "BEF .net core",
+    "ring": "Experimente",
+    "quadrant": "Ferramentas",
+    "isNew": "TRUE",
+    "description": "Novo BEF utlizando .net standard 2.0 para distribuição em multplaforma dos produtos"
+  },
+  {
+    "name": "WES Stateless",
+    "ring": "Adote",
+    "quadrant": "Ferramentas",
+    "isNew": "TRUE",
+    "description": "Ao remover a afinidade de sessão dos seus projetos, com o WES Stateless (https://dev.benner.com.br/2018/08/wes-stateless-mais-um-passo-em-direcao-a-nuvem/). Você torna seu produto escalável com containers e muitos outros benefícios da nuvem, tanto na nuvem quanto on-premises."
+  },
+  {
+    "name": "Cake",
+    "ring": "Experimente",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "Cake é um sistema de automação de build multi-plataformas em C# para tarefas como compilação de código, cópia de arquivos e pastas, execução de testes unitários, compressão de arquivos e compilação de pacotes NuGet."
+  },
+  {
+    "name": "Selenium",
+    "ring": "Adote",
+    "quadrant": "Ferramentas",
+    "isNew": "TRUE",
+    "description": "Selenium é uma ferramenta de automação de navegadores, permitindo não apenas, mas principalmente testes de interface automatizados."
+  },
+  {
+    "name": "Cypress",
+    "ring": "Experimente",
+    "quadrant": "Ferramentas",
+    "isNew": "TRUE",
+    "description": "Ferramenta de automação de navegadores, permitindo não apenas, mas principalmente testes de interface automatizados."
+  },
+  {
+    "name": "Analytics",
+    "ring": "Experimente",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "Analytics refere-se à possibilidade de se utilizar dados, análises e raciocínio sistemático para seguir em um processo de tomada de decisão muito mais eficiente. Pode ser aplicado em diversos tipos de negócios."
+  },
+  {
+    "name": "Expressões Lambdas do BEF",
+    "ring": "Experimente",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "Com expressões lambda é possível executar consultas no banco de dados sem utilizar SQL. Entre os diversos benefícios, as expressões lambda melhoram a legibilidade do código, facilitam a escrita de testes unitários e os erros de sintaxe são detectados em tempo de compilação."
+  },
+  {
+    "name": "Prometheus",
+    "ring": "Experimente",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "Monitoramento de aplicações em container"
+  },
+  {
+    "name": "Grafana",
+    "ring": "Experimente",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "Dashboards para monitoramento de aplicações em container"
+  },
+  {
+    "name": "Ansible",
+    "ring": "Experimente",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "É uma ferramenta de automatização criada para gerenciar múltiplas máquinas de uma vez com suporte de uma linguagem própria baseada em YAML. Utiliza SSH para se conectar com os servidores e executar as tasks e funciona em cima de uma arquitetura sem a presença de agentes (agentlesss) e não necessita de uma infraestrutura de segurança customizada, fazendo com que o processo de automação seja mais eficiente e mais seguro."
+  },
+  {
+    "name": "PostgreSQL",
+    "ring": "Experimente",
+    "quadrant": "Ferramentas",
+    "isNew": "TRUE",
+    "description": "O PostgreSQL é um sistema de gerenciamento de banco de dados objeto-relacional desenvolvido pelo Departamento de Ciência da Computação da Universidade da Califórnia em Berkeley. O POSTGRES foi pioneiro em vários conceitos que somente se tornaram disponíveis muito mais tarde em alguns sistemas de banco de dados comerciais. http://wiki.benner.com.br/wiki/index.php?title=BEF_-_Executando_consultas_com_Express%C3%B5es_Lambda_(LINQ)."
+  },
+  {
+    "name": "Message Broker",
+    "ring": "Experimente",
+    "quadrant": "Ferramentas",
+    "isNew": "TRUE",
+    "description": "Message broker é um desenho de arquitetura para validação, transformação e encaminhamento de mensagens."
+  },
+  {
+    "name": "Machine Learning",
+    "ring": "Avalie",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "Machine learning é um método de análise de dados que automatiza a construção de modelos analíticos. É um ramo da inteligência artificial baseado na ideia de que sistemas podem aprender com dados, identificar padrões e tomar decisões com o mínimo de intervenção humana."
+  },
+  {
+    "name": "Power BI",
+    "ring": "Experimente",
+    "quadrant": "Ferramentas",
+    "isNew": "TRUE",
+    "description": "O Power BI é uma solução de análise de negócios que permite que você visualize seus dados e compartilhe insights em toda a organização ou os insira no seu aplicativo ou site. Conecte-se a centenas de fontes de dados e dê vida aos seus dados com dashboards e relatórios."
+  },
+  {
+    "name": "OData",
+    "ring": "Avalie",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "O OData (Open Data Protocol) define um conjunto de práticas recomendadas para criar e consumir APIs RESTful. O OData ajuda você a se concentrar na sua lógica ao criar APIs RESTful sem precisar se preocupar com as várias abordagens para definir cabeçalhos de solicitação e resposta, códigos de status, métodos HTTP, convenções de URL, tipos de mídia, formatos de carga útil, opções de consulta etc."
+  },
+  {
+    "name": "BOA",
+    "ring": "Experimente",
+    "quadrant": "Ferramentas",
+    "isNew": "TRUE",
+    "description": "Benner Open API - Padrão de codificação adotado para APIs RESTFull consumidas por aplicações https://wiki.benner.com.br/wiki/index.php?title=Benner_Open_Api_(BOA)"
+  },
+  {
+    "name": "Microsserviços",
+    "ring": "Experimente",
+    "quadrant": "Ferramentas",
+    "isNew": "TRUE",
+    "description": "Microsserviços são uma abordagem de arquitetura para a criação de aplicações. O que diferencia a arquitetura de microsserviços das abordagens monolíticas tradicionais é como ela decompõe a aplicação por funções básicas. Cada função é denominada um serviço e pode ser criada e implantada de maneira independente. Isso significa que cada serviço individual pode funcionar ou falhar sem comprometer os demais."
+  },
+  {
+    "name": "Jira",
+    "ring": "Avalie",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "É uma ferramenta que permite o monitoramento de tarefas e acompanhamento de projetos garantindo o gerenciamento de todas as suas atividades em único lugar. Um Projeto JIRA é um agrupamento de tarefas (Issues), e é definido de acordo com a organização e as suas necessidades."
+  },
+  {
+    "name": "Ferramentas de Monitoramento",
+    "ring": "Experimente",
+    "quadrant": "Ferramentas",
+    "isNew": "TRUE",
+    "description": "Ferramentas de monitoramento."
+  },
+  {
+    "name": "RavenDB",
+    "ring": "Avalie",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "RavenDB é um banco de dados NoSQL desenvolvido em .NET, com código-fonte aberto."
+  },
+  {
+    "name": "API Manager / API Gateway",
+    "ring": "Avalie",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "API Gateway é uma ferramenta para redirecionamento e filtragem de tráfego de terceiros. API Manager fornece uma camada de gestão para API Gateways. Além de definir o comportamento do API Gateway, o API Manager lida com análises de cada requisição, insight corporativos através das análises, implementação de controle de versão, criação de dashboard de acesso, possibilidade de monetização e etc."
+  },
+  {
+    "name": "Dapper / ORM",
+    "ring": "Experimente",
+    "quadrant": "Ferramentas",
+    "isNew": "TRUE",
+    "description": "ORM (Object Relational Mapper) é uma técnica de mapeamento objeto relacional que permite fazer uma relação dos objetos com os dados que os mesmos representam. Dapper é um pequeno framework ORM."
+  },
+  {
+    "name": "Workflow",
+    "ring": "Avalie",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "Ferramentas de automação de processos em geral."
+  },
+  {
+    "name": "Newrelic",
+    "ring": "Avalie",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "New Relic é uma solução de monitoramento. Em uma plataforma SaaS, foi projetado para diagnosticar problemas de desempenho e, assim, ajudar a economizar o tempo do programador."
+  },
+  {
+    "name": "Nexus",
+    "ring": "Avalie",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "Gerenciador de binarios, artefatos de liberação em geral."
+  },
+  {
+    "name": "Git Extensions",
+    "ring": "Avalie",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "Git Extensions é um kit de ferramentas destinado a tornar o trabalho com o Git no Windows mais intuitivo. A extensão do shell se integrará no Windows Explorer e apresentará um menu de contexto em arquivos e diretórios."
+  },
+  {
+    "name": "Portainer",
+    "ring": "Experimente",
+    "quadrant": "Ferramentas",
+    "isNew": "TRUE",
+    "description": "Portainer é uma interface Web que roda localmente e é possível gerenciar imagens e containers Docker."
+  },
+  {
+    "name": "Vagrant",
+    "ring": "Avalie",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "Esta ferramenta permitir criar e gerenciar de forma práticas máquinas virtuais. No caso da automação a virtualização poderá ser utilizada para dar escalabilidade para execução dos testes automatizados."
+  },
+  {
+    "name": "Puppet",
+    "ring": "Avalie",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "O uso desse provisionador, em conjunto o Vagrant, auxilia nas instalações e configurações dos pacotes necessários para máquinas virtuais. É um arquivo que pode ser versionado e facilmente modificado, que garante que as máquinas virtuais (se estiver usando o Vagrant em conjunto) estejam instaladas e configuradas da mesma maneira."
+  },
+  {
+    "name": "Fluentd",
+    "ring": "Adote",
+    "quadrant": "Ferramentas",
+    "isNew": "TRUE",
+    "description": "Ferramenta de extração e roteamento de logs"
+  },
+  {
+    "name": "Polly",
+    "ring": "Avalie",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "Permite aplicar políticas de resiliência"
+  },
+  {
+    "name": "DS Version",
+    "ring": "Evite",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "Controlador de arquivos, utilizado para fontes."
+  },
+  {
+    "name": "E9",
+    "ring": "Evite",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "Solução interna da Benner para compilar e liberar binários."
+  },
+  {
+    "name": "Test Complete",
+    "ring": "Evite",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "Solução para automação de testes."
+  },
+  {
+    "name": "Benner Report (Quick Report)",
+    "ring": "Evite",
+    "quadrant": "Ferramentas",
+    "isNew": "FALSE",
+    "description": "Solução interna que utiliza o QuickReport para gerar relatórios de forma cadastral. Evite! Seu sucessor é o Stimulsoft."
+  },
+  {
+    "name": "Stimulsoft",
+    "ring": "Adote",
+    "quadrant": "Ferramentas",
+    "isNew": "TRUE",
+    "description": "Ferramenta para construção de relatórios"
+  },
+  {
+    "name": "BDS - Benner Digital Signature",
+    "ring": "Adote",
+    "quadrant": "Ferramentas",
+    "isNew": "TRUE",
+    "description": "Solução para integração com provedores de assinatura digital"
+  },
+  {
+    "name": "Vue.js",
+    "ring": "Avalie",
+    "quadrant": "Linguagens & Frameworks",
+    "isNew": "TRUE",
+    "description": "O Vue é uma framework progressivo JavaScript que se concentra na criação de componentes reutilizáveis . Como ele só funciona na “camada de visualização”, pode ser integrado facilmente a outros projetos e bibliotecas. O Vue.js oferece muitas funcionalidades para a camada de visualização e pode ser usado para criar Single Page Applications."
+  },
+  {
+    "name": "C# 11.0+",
+    "ring": "Adote",
+    "quadrant": "Linguagens & Frameworks",
+    "isNew": "TRUE",
+    "description": "C# é uma linguagem de programação, multiparadigma, de tipagem forte, desenvolvida pela Microsoft como parte da plataforma .NET. A sua sintaxe orientada a objetos foi baseada no C++ mas inclui muitas influências de outras linguagens de programação, como Object Pascal e, principalmente, Java."
+  },
+  {
+    "name": "Jest",
+    "ring": "Avalie",
+    "quadrant": "Linguagens & Frameworks",
+    "isNew": "TRUE",
+    "description": "Jest é um framework de testes com baterias incluídas criado pelo Facebook. Ele é rápido, cheio de recursos e integrado perfeitamente com Babel."
+  },
+  {
+    "name": "REST",
+    "ring": "Adote",
+    "quadrant": "Linguagens & Frameworks",
+    "isNew": "FALSE",
+    "description": "REST significa Representational State Transfer. Em português, Transferência de Estado Representacional. Trata-se de uma abstração da arquitetura da Web. Resumidamente, o REST consiste em princípios/regras/constraints que, quando seguidas, permitem a criação de um projeto com interfaces bem definidas. Desta forma, permitindo, por exemplo, que aplicações se comuniquem."
+  },
+  {
+    "name": "Swagger",
+    "ring": "Adote",
+    "quadrant": "Linguagens & Frameworks",
+    "isNew": "FALSE",
+    "description": "Swagger é um projeto composto por algumas ferramentas que auxiliam o desenvolvedor de APIs REST em algumas tarefas como: modelagem da API, geração de documentação (legível) da API, geração de códigos do Cliente e do Servidor, com suporte a várias linguagens de programação."
+  },
+  {
+    "name": "Webpack",
+    "ring": "Adote",
+    "quadrant": "Linguagens & Frameworks",
+    "isNew": "FALSE",
+    "description": "Webpack é um empacotador de módulos estáticos para aplicações JavaScript modernas. Ao processar a aplicação o webpack gera um gráfico que mapeia cada módulo e suas dependências e gera um ou mais pacotes."
+  },
+  {
+    "name": "User Interface (Script UI)",
+    "ring": "Adote",
+    "quadrant": "Linguagens & Frameworks",
+    "isNew": "FALSE",
+    "description": "Solução para escrever comportamento de interface (tela) comum, tanto para o Desktop quanto para a Web."
+  },
+  {
+    "name": "JQuery",
+    "ring": "Adote",
+    "quadrant": "Linguagens & Frameworks",
+    "isNew": "FALSE",
+    "description": "jQuery é uma biblioteca de funções JavaScript que interage com o HTML, desenvolvida para simplificar os scripts interpretados no navegador do cliente."
+  },
+  {
+    "name": "NUnit",
+    "ring": "Adote",
+    "quadrant": "Linguagens & Frameworks",
+    "isNew": "FALSE",
+    "description": "NUnit é um framework livre para testes unitários. Com o NUnit é possível criar casos de teste unitários no Visual Studio e executá-los, obtendo o resultado (uma das formas) em um aplicativo gráfico que permite a visualização simplificada do sucesso ou fracasso dos testes executados."
+  },
+  {
+    "name": "ASP.NET Web API",
+    "ring": "Adote",
+    "quadrant": "Linguagens & Frameworks",
+    "isNew": "FALSE",
+    "description": "ASP.NET Web API é um framework para construir serviços HTTP sobre o .Net"
+  },
+  {
+    "name": "ASP.NET Core",
+    "ring": "Adote",
+    "quadrant": "Linguagens & Frameworks",
+    "isNew": "FALSE",
+    "description": "ASP.NET Core é um framework web gratuito e aberto, com performance maior que ASP.NET, desenvolvido pela Microsoft e comunidade. É um framework modular que funciona tanto no .NET Framework Full, no Windows, e nas múltiplas plataformas com .NET Core."
+  },
+  {
+    "name": "Xamarim",
+    "ring": "Evite",
+    "quadrant": "Linguagens & Frameworks",
+    "isNew": "TRUE",
+    "description": "Xamarin é uma plataforma de desenvolvimento mantida pela Microsoft que permite a criação de aplicativos móveis nativos para iOS, Android e Windows Phone utilizando como base a linguagem C# com o framework .NET. A ideia é que seja possível reutilizar mais de 75% do código entre as plataformas."
+  },
+  {
+    "name": ".NET Core",
+    "ring": "Adote",
+    "quadrant": "Linguagens & Frameworks",
+    "isNew": "TRUE",
+    "description": ".NET Core é uma estrutura de software de computador gerenciada gratuita e de código aberto para os sistemas operacionais Windows, Linux e MacOS. É um sucessor de plataforma aberta do .NET Framework."
+  },
+  {
+    "name": "Node.js",
+    "ring": "Experimente",
+    "quadrant": "Linguagens & Frameworks",
+    "isNew": "TRUE",
+    "description": "Node.js é uma plataforma construída sobre o motor JavaScript do Google Chrome para facilmente construir aplicações de rede rápidas e escaláveis. Node.js usa um modelo de I/O direcionada a evento não bloqueante que o torna leve e eficiente, ideal para aplicações em tempo real com troca intensa de dados através de dispositivos distribuídos."
+  },
+  {
+    "name": "Python",
+    "ring": "Avalie",
+    "quadrant": "Linguagens & Frameworks",
+    "isNew": "FALSE",
+    "description": "Python é uma linguagem dinâmica, interpretada, robusta, multiplataforma, multi-paradigma (orientação à objetos, funcional, refletiva e imperativa) e está preparada para rodar em JVM e .NET Framework. É uma linguagem livre (até para projetos comerciais) e hoje pode-se programar para desktops, web e mobile."
+  },
+  {
+    "name": "DevExpress",
+    "ring": "Avalie",
+    "quadrant": "Linguagens & Frameworks",
+    "isNew": "FALSE",
+    "description": "Suite de componentes."
+  },
+  {
+    "name": "Blazor",
+    "ring": "Avalie",
+    "quadrant": "Linguagens & Frameworks",
+    "isNew": "FALSE",
+    "description": "Blazor é uma estrutura de UI da Web baseada em C#, Razor e HTML que é executada no navegador via WebAssembly. O Blazor foi projetado para simplificar a tarefa de criar aplicativos rápidos de página única que são executados em qualquer navegador."
+  },
+  {
+    "name": "GraphQL",
+    "ring": "Avalie",
+    "quadrant": "Linguagens & Frameworks",
+    "isNew": "FALSE",
+    "description": "GraphQL é uma linguagem de consulta criada pelo Facebook em 2012 e lançada publicamente em 2015.[2] É considerada uma alternativa para arquiteturas REST, além de oferecer um serviço runtime para rodar comandos e consumir uma API."
+  },
+  {
+    "name": "FileHelpers",
+    "ring": "Avalie",
+    "quadrant": "Linguagens & Frameworks",
+    "isNew": "FALSE",
+    "description": "Biblioteca que facilita manipulação de arquivos"
+  },
+  {
+    "name": "AutoMapper",
+    "ring": "Avalie",
+    "quadrant": "Linguagens & Frameworks",
+    "isNew": "FALSE",
+    "description": "Biblioteca para transformação de dados"
+  },
+  {
+    "name": "SignalR",
+    "ring": "Avalie",
+    "quadrant": "Linguagens & Frameworks",
+    "isNew": "FALSE",
+    "description": "SignalR é uma biblioteca de software para o Microsoft ASP.NET que permite que o código do servidor envie notificações assíncronas para aplicativos da Web do lado do cliente"
+  },
+  {
+    "name": "Helm e Helmfile",
+    "ring": "Avalie",
+    "quadrant": "Linguagens & Frameworks",
+    "isNew": "FALSE",
+    "description": "é uma ferramenta para gerenciamento de pacotes para o Kubernetes"
+  },
+  {
+    "name": "Regra de negócio Delphi",
+    "ring": "Evite",
+    "quadrant": "Linguagens & Frameworks",
+    "isNew": "FALSE",
+    "description": "O Delphi é legado. Ele é restrito ao Win32, estamos indo na direção da multi-plataforma (Linux/Windows). Utilize o .NET."
+  },
+  {
+    "name": "Regra de negócio VBA",
+    "ring": "Evite",
+    "quadrant": "Linguagens & Frameworks",
+    "isNew": "FALSE",
+    "description": "O VBA é legado. Ele é restrito ao Win32, estamos indo na direção da multi-plataforma (Linux/Windows). Utilize o .NET."
+  },
+  {
+    "name": "Silverlight",
+    "ring": "Evite",
+    "quadrant": "Linguagens & Frameworks",
+    "isNew": "FALSE",
+    "description": "O Silverlight é uma plataforma proprietária desenvolvida pela Microsoft para prover um conteúdo multimídia a partir do navegador web, desenvolvido para concorrer diretamente com as tecnologias Flash e Flex da Adobe. Ele é capaz de reproduzir conteúdos de altíssima qualidade (como 1080p) através dos codecs de vídeo VC-2 e H.264, fornecendo um excelente nível de transmissão via streaming."
+  },
+  {
+    "name": "Stored Procedure",
+    "ring": "Evite",
+    "quadrant": "Linguagens & Frameworks",
+    "isNew": "FALSE",
+    "description": "Stored Procedure é uma consulta SQL que pode ser salva para ser reutilizada, podendo ser fixa ou receber parâmetros, retornar ou não resultados. O banco armazena em cache as consultas, fazendo as Stored Procedures serem mais performáticas."
+  },
+  {
+    "name": "SQL Específico para banco de dados",
+    "ring": "Evite",
+    "quadrant": "Linguagens & Frameworks",
+    "isNew": "FALSE",
+    "description": "Nossas soluções precisam rodar em SQLServer, Oracle e PostgreSQL, portanto qualquer comando escrito deve ser compatível com qualquer banco."
+  },
+  {
+    "name": "Web Services com SOAP",
+    "ring": "Evite",
+    "quadrant": "Linguagens & Frameworks",
+    "isNew": "FALSE",
+    "description": "O protocolo SOAP, abreviação para Simple Object Access Protocol, é uma especificação para a troca de informação entre sistemas, ou seja, uma especificação de formato de dados para envio de estruturas de dados entre serviços, com um padrão para permitir a interoperabilidade entre eles. Seu design parte do princípio da utilização de XMLs para a transferência de objetos entre aplicações, e a utilização, como transporte, do protocolo de rede HTTP."
+  },
+  {
+    "name": "Git",
+    "ring": "Adote",
+    "quadrant": "Plataformas",
+    "isNew": "FALSE",
+    "description": "Git é um sistema open-source de controle de versão. Com ele podemos criar todo histórico de alterações no código do nosso projeto e facilmente voltar para qualquer ponto para saber como o código estava naquela data. Além disso, o Git nos ajuda muito a controlar o fluxo de novas funcionalidades entre vários desenvolvedores no mesmo projeto com ferramentas para análise e resolução de conflitos quando o mesmo arquivo é editado por mais de uma pessoa em funcionalidades diferentes."
+  },
+  {
+    "name": "Gitlab",
+    "ring": "Adote",
+    "quadrant": "Plataformas",
+    "isNew": "FALSE",
+    "description": "O GitLab é um gerenciador de repositório de software baseado em git, com suporte a Wiki, gerenciamento de tarefas e CI/CD. GitLab permite que os desenvolvedores armazenem o código em seus próprios servidores, ao invés de servidores de terceiros."
+  },
+  {
+    "name": "Jenkins",
+    "ring": "Adote",
+    "quadrant": "Plataformas",
+    "isNew": "FALSE",
+    "description": "Jenkins C.I. é uma aplicação web de Integração Contínua que pode ser instalada em qualquer máquina e serve, principalmente, para executar os testes e criar os artefatos de um projeto de software."
+  },
+  {
+    "name": "WES",
+    "ring": "Adote",
+    "quadrant": "Plataformas",
+    "isNew": "FALSE",
+    "description": "O Web Enterprise Suite (WES) é uma solução completa para o desenvolvimento e execução de aplicações corporativas no ambiente Web. Possui uma interface moderna e intuitiva, que se adapta a dispositivos móveis e é orientada a papéis. O usuário só vê o que é relevante para o papel que ele está desempenhando, garantindo assim uma boa usabilidade. O WES entrega uma interface padrão com uma série de recursos fundamentais como navegação, menus, atalhos, grids, formulários, filtros, autenticação, autorização log e auditoria. Esta interface pode ser amplamente customizada."
+  },
+  {
+    "name": "Docker",
+    "ring": "Adote",
+    "quadrant": "Plataformas",
+    "isNew": "TRUE",
+    "description": "Docker é uma plataforma para criação e adminsitração de ambientes isolados, chamados containers de forma ampla e de alto desempenho, muito mais rápida que a virtualização convencional."
+  },
+  {
+    "name": "Kubernetes",
+    "ring": "Experimente",
+    "quadrant": "Plataformas",
+    "isNew": "FALSE",
+    "description": "Kubernetes é uma plataforma open source que automatiza as operações dos containers Linux. Essa plataforma elimina grande parte dos processos manuais necessários para implantar e escalar as aplicações em containers."
+  },
+  {
+    "name": "Nuvem Pública",
+    "ring": "Experimente",
+    "quadrant": "Plataformas",
+    "isNew": "FALSE",
+    "description": "A nuvem pública é definida como uma série de serviços de computação oferecidos por terceiros à Internet pública, os quais são disponibilizados a qualquer pessoa que queira utilizá-los ou comprá-los. Eles podem ser gratuitos ou vendidos sob demanda, permitindo que os clientes paguem apenas pelo seu consumo de ciclos de CPU, armazenamento ou largura de banda."
+  },
+  {
+    "name": "Identity Server",
+    "ring": "Avalie",
+    "quadrant": "Plataformas",
+    "isNew": "FALSE",
+    "description": "Servidor de gestão centralizada de identidades e permissões, é necessário em ambientes de microsserviços onde cada serviço precisa delegar a autenticação para um serviço dedicado a isso."
+  },
+  {
+    "name": "Flutter",
+    "ring": "Adote",
+    "quadrant": "Plataformas",
+    "isNew": "TRUE",
+    "description": "Flutter é um framework para desenvolvimento de aplicativos para dispositivos móveis, Desktop ou Web utilizando a linguagem Dart como base de criação dos aplicativos."
+  },
+  {
+    "name": "SaaS",
+    "ring": "Experimente",
+    "quadrant": "Plataformas",
+    "isNew": "TRUE",
+    "description": "SaaS (Software as a Service), em português \"software como um serviço\". São aplicações online que podem ser usadas no computador, tablet ou celular, de maneira simples e remota. É um programa que não é instalado e que é usado como um serviço através da conexão com a Internet. Como um serviço, significa que o cliente não compra a licença de um produto, mas sim o direito de usufruir do serviço oferecido."
+  },
+  {
+    "name": "Drools",
+    "ring": "Avalie",
+    "quadrant": "Plataformas",
+    "isNew": "FALSE",
+    "description": "Motor de regras de código fonte aberto"
+  },
+  {
+    "name": "jBPM",
+    "ring": "Avalie",
+    "quadrant": "Plataformas",
+    "isNew": "FALSE",
+    "description": "BPM de código fonte aberto"
+  },
+  {
+    "name": "WES 2006",
+    "ring": "Evite",
+    "quadrant": "Plataformas",
+    "isNew": "FALSE",
+    "description": "Solução descontinuada da Benner para sistemas de gestão na Web. Evite! Utilize o WES."
+  },
+  {
+    "name": "DSS",
+    "ring": "Evite",
+    "quadrant": "Plataformas",
+    "isNew": "FALSE",
+    "description": "Solução descontinuada de BI."
+  },
+  {
+    "name": "Runner",
+    "ring": "Evite",
+    "quadrant": "Plataformas",
+    "isNew": "FALSE",
+    "description": "O Runner é a ferramenta Benner responsável pela execução dos sistemas no desktop. Se utiliza dos metadados alimentados pelo Builder para gerar uma interface funcional do sistema, em tempo de execução. A interface é dividida em módulos. Uma Ribbon dá acesso as principais funções de cada módulo. Os dados são exibidos em pastas e subpastas, conforme a relação entre eles."
+  },
+  {
+    "name": "Postman",
+    "ring": "Experimente",
+    "quadrant": "Plataformas",
+    "isNew": "TRUE",
+    "description": "Postman é uma plataforma de API para desenvolvedores projetar, construir, testar e iterar suas APIs"
+  }
+]
